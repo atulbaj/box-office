@@ -8,6 +8,7 @@ const Home = () => {
   const [input, setInput] = useState('');
   const [results, setResults] = useState(null);
   const [searchOption, setSearchOption] = useState('');
+
   const onSearch = () => {
     // https://api.tvmaze.com/search/shows?q=men
 
